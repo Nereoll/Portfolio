@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emeric Portfolio</title>
+    <link rel="stylesheet" href="../style/main.css">
+    <script src="https://kit.fontawesome.com/0d62478a85.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+
+    </header>
+    <section class="welcome_text">
+            <div class="welcome_title">
+                <h1>Hello ! &#128400</h1>
+                <p id="presentation">I'm Emeric DIEUDONNÉ</p>
+                <p id="welcome_sub_title">I'm a Web and software dev in the making</p>
+                <a class="welcome_buttons" href="#about" >About Me <i class="fa-solid fa-user"></i>  </a>
+                <a class="welcome_buttons" href="#skills" >My skills <i class="fa-solid fa-display"></i>  </a>
+                <a class="welcome_buttons" href="#projects" >My projects <i class="fa-solid fa-book-open"></i>  </a>
+                <a class="welcome_buttons" href="#contact" >Contact me <i class="fa-solid fa-paper-plane"></i>  </a>
+            </div>
+            <div class="welcome_image">
+                <img src="../media/photo_hoody3.png" alt="welcome_image" class="responsive">
+            </div>
+            <div id="welcome_location">
+                <i class="fa-solid fa-map"></i><p>Currently located in : France, Grenoble</p><i class="fa-solid fa-map"></i>
+            </div>
+            <div class="clock_container" id="digital-clock">
+                <script src="../dynamic/clock.js"></script>
+            </div>
+    </section>
+    <section id="about">
+        <h1>About me :</h1>
+        <p>
+            <strong class="strong">Hi i'm Emeric !</strong> I'm currently doing my <i>studies in Computer Science</i> at the University of Grenoble Alpes.
+            <br>I'm also <i>learning front end developpement</i> on my own in the mean time
+            <br>I've been into computers since I was a kid, I started with video games and then I got into programming. I'm passionnate about creating <i>applications that can help people in their daily life.</i>
+            <br>I started around 10 with <i>python</i> wanting to make a game with pygame. And now i'm learning <i>front end developpement</i> with CSS, HTML and JavaScript.
+            <br>I'm <i>very passionnate</i> about creating beautiful and <i>user friendly</i> applications, I know that i have a lot to learn, but i'm very motivated and I <i>will do my best</i> to achieve my goals.
+            <br>I'm also very interested in video games, I love playing them and working in the video game industry one day is a goal of mine.
+        </p>
+    </section>
+    <section id="skills">
+        <h1>My skills :</h1>
+        <h2>Programming skills : </h2>
+        <h3>Web developpement</h3>
+        <div class="section">
+            <div class="sous_section">
+                <i class="fa-brands fa-html5 icons"></i>
+                <h4>Html5</h4>
+            </div>
+            <div class="sous_section">
+                <i class="fa-brands fa-python icons"></i>
+                <h4>Python framework Django</h4>
+            </div>
+            <div class="sous_section">
+                <i class="fa-brands fa-css3-alt icons"></i>
+                <h4>CSS3</h4>
+            </div>
+        </div>
+        <h3>Game developpement</h3>
+        <div class="section">
+            <div class="sous_section">
+                <img id="godot_icon" src="../media/icon_monochrome_dark.png" alt="godot_icon" width="96" height="96" >
+                <h4>Gdscript</h4>
+            </div>
+            <div class="sous_section">
+                <i class="fa-brands fa-python icons"></i>
+                <h4>Python framework Pygame</h4>
+            </div>
+        </div>
+        <h3>Software developpement</h3>
+        <div class="section">
+            <div class="sous_section">
+                <i class="fa-brands fa-python icons"></i>
+                <h4>Python</h4>
+            </div>
+            <div class="sous_section">
+                <i class="fa-brands fa-java icons"></i>
+                <h4>Java</h4>
+            </div>
+            <div class="sous_section">
+                <i class="fa-solid fa-database icons"></i>
+                <h4>SQL</h4>
+            </div>
+        </div>
+        <h2>Others</h2>
+        <div class="section">
+            <div class="sous_section">
+                <i class="fa-solid fa-video"></i>
+                <h4>kdenlive</h4>
+            </div>
+            <div class="sous_section">
+                <i class="fa-solid fa-image"></i>
+                <h4>Gimp</h4>
+            </div>
+
+        </div>
+    </section>
+    <section id="projects">
+        <h1>My projects :</h1>
+        <p>here's a few of my projects, click</p>
+        <a href="/static/projects_page.html">to see all of them</a>
+        <div id="project_carousel_container">
+            <!--    <button class="prev-button"><i class="fa-solid fa-chevron-left fa-2xl"></i></button>    -->
+            <div id="carousel">
+                <!-- Les images du carrousel seront insérées ici dynamiquement -->
+            </div>
+            <!--    <button class="next-button"><i class="fa-solid fa-chevron-right fa-2xl"></i></button>   -->
+
+        </div>
+        <script src="../dynamic/carousel.js"></script>
+    </section>
+    <footer>
+
+    </footer>
+    <script src="../dynamic/base_template.js"></script>
+</body>
+</html>

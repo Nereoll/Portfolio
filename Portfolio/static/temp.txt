@@ -1,0 +1,31 @@
+        <nav>
+        <ul>
+            <li>
+                <a href="#">
+                    <img src="" alt="House Icon">
+                    Main Page
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    All Projects
+                </a>
+            </li>
+            <li>
+                <p>DIEUDONNÉ EMERIC</p>
+            </li>
+            <li>
+                <a href="#">
+                    About
+                </a>
+                <li>
+                    <a href="contact_page.html">
+                        Contacts
+                        <img src="" alt="Moon Icon">
+                    </a>
+                </li>
+            </li>
+        </ul>
+        </nav>
+
+            bottom:-5px;
