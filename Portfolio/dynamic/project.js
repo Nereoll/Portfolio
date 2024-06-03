@@ -26,7 +26,10 @@ document.addEventListener("DOMContentLoaded", function() {
                     img.alt = "Image";
                     td.appendChild(img);
                 } else {
-                    td.textContent = column;
+                    const p = document.createElement('p');
+                    //td.textContent = column;
+                    p.textContent = column;
+                    td.appendChild(p)
                 }
 
                 tr.appendChild(td);
