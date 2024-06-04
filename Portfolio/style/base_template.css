@@ -2,12 +2,14 @@ body{
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 
 /*Header Navbar*/
 .topnav {
     position: relative;
+    z-index: 2;
     overflow: hidden;
     font-weight: bold;
     background-color: black;
