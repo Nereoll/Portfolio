@@ -3,21 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emeric Portfolio</title>
+    <title>Projects</title>
     <link rel="stylesheet" href="../style/main.css">
+    <link rel="stylesheet" href="../style/projects_page.css">
     <script src="https://kit.fontawesome.com/0d62478a85.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header></header>
-    <h1 id="project_table_title">A list of all of my projects so far</h1>
-        <table id="project_table">
-            <tbody>
-                <!-- Here we will add the projects, dynamicaaly using js -->
-            </tbody>
-        </table>
-        <script src="../dynamic/project.js"></script>
+    <section class="centre column_flex welcome_text" id="project_section">
+        <h1>All of my projects</h1>
+        <h2>Click for more infos</h2>
+        <div id="project_main">
+            <div class="centre line_flex">
+                <div class="column_flex">
+                    <span id="pending_number" class="gras"><!--Nombre mis à jour depuis un script javascript--></span>
+                    <span><i class="fa-solid fa-spinner"></i> Pending</span>
+                </div>
+                <div class="column_flex">
+                    <span id="ended_number" class="gras"><!--Nombre mis à jour depuis un script javascript--></span>
+                    <span><i class="fa-solid fa-check"></i> Finished</span>
+                </div>
+            </div>
+            <div id="project_box">
+                <!--Les projets sont ajoutés automatiquement depuis un script javascript-->
+            </div>
+        </div>
+
+    </section>
+    <script src="../dynamic/project.js"></script>
     <footer></footer>
     <script src="../dynamic/base_template.js"></script>
-
 </body>
 </html>

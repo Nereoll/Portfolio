@@ -1,0 +1,102 @@
+[
+    {
+      "Type": "Website",
+      "Title": "Annuaire",
+      "Date":"2024",
+      "Language": "HTML5, CSS3, Django",
+      "Description": "Website registering Names and Phone number, this is a cleaner remake of a project i did at 16 to see my progression",
+      "Images": "../media/NewAnnuaire.png",
+      "Link": "https://raspberrypi.tail9a1070.ts.net/newannuaire/",
+      "Favoris": true,
+      "Avancement": true
+    },
+    {
+      "Type": "Video Game",
+      "Title": "RobY vs The Masks",
+      "Date":"2022",
+      "Language": "Python (pygame)",
+      "Description": "recreation of the famous flappy bird with custom designs",
+      "Images": "../media/GameplayRobYvsTheMask.png",
+      "Link": "https://github.com/Nereoll/Roby-vs-the-mask",
+      "Favoris": true,
+      "Avancement": true
+    },
+    {
+      "Type": "Personal server",
+      "Title": "Raspberry pi NAS",
+      "Date":"2023",
+      "Language": "bash",
+      "Description": "Raspberry pi NAS using dietpi OS and apache2 to host my nextcloud made to synch my data across all of my devices with the use of scripts and creation of a ddns this server is no longer but was a good project nonetheless",
+      "Images": "../media/oldNextCloud.png",
+      "Link": "",
+      "Favoris": null,
+      "Avancement": true
+    },
+    {
+      "Type": "Personal server",
+      "Title": "Raspberry pi NAS",
+      "Date":"2024",
+      "Language": "bash",
+      "Description": "Raspberry pi serverusing rpi os and apache2 to host web servers such as \"Annuaire\" and a new \"Nextcloud\" session",
+      "Images": "../media/NextCloud.png",
+      "Link": "",
+      "Favoris": true,
+      "Avancement": true
+    },
+    {
+      "Type": "Website",
+      "Title": "IBM remaking",
+      "Date":"2024",
+      "Language": "HTML5, CSS3, JavaScript",
+      "Description": "University project, the goal was to create a simple website to showcase IBM to 6th grader, using simple worlds, we had to work on the wireframe et gather the main informations about IBM and then realize the website as a team, we used GIT to synch all work",
+      "Images": "../media/IBM2.png",
+      "Link": "https://github.com/Nagrom850/IBM_3-mes",
+      "Favoris": true,
+      "Avancement": true
+    },
+    {
+      "Type": "Data Base",
+      "Title": "Titanic related database",
+      "Date":"2024",
+      "Language": "postgreSQL",
+      "Description": "University project, implementing a database related to the titanic to showcase why the survivor survived",
+      "Images": "",
+      "Link": "",
+      "Favoris": null,
+      "Avancement": true
+    },
+    {
+      "Type": "Application",
+      "Title": "News theme attribution",
+      "Date":"2024",
+      "Language": "Java",
+      "Description": "University project, Automatic attribution of news to a theme (SPORT, POLITICS,,, ) based on machine learning",
+      "Images": "",
+      "Link": "https://github.com/GargantuaArgell/projet-sae-s1-01",
+      "Favoris": null,
+      "Avancement": true
+    },
+    {
+      "Type": "Data Base",
+      "Title": "Nutriscore database",
+      "Date":"2024",
+      "Language": "plpgSQL, postgreSQL, rMarkdown",
+      "Description": "University project, cleaning of the large nutriscore database to extract only the data related to pizza quiches and pie in the united state and make graphs and analytics about those data",
+      "Images": "../media/pizzaBD.png",
+      "Link": "https://github.com/Nereoll/Nutriscore-database-analysis",
+      "Favoris": true,
+      "Avancement": true
+    },
+    {
+      "Type": "Debian installation",
+      "Title": "Setup Installation",
+      "Date":"2024",
+      "Language": "bash",
+      "Description": "University project, Installation and setup of a Debian 11 distribution on a new machine, as well as the installation of git and IntellIJ IDEA Community, from flatpak snaps and the base debian package",
+      "Images": "../media/idea_install.png",
+      "Link": "",
+      "Favoris": null,
+      "Avancement": true
+    }
+  ]
+  

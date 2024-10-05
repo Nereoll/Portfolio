@@ -33,6 +33,7 @@ h1{
     font-size: 3rem;
     font-weight: bold;
     color: whitesmoke;
+    padding: 50px 0px;
 }
 /* Fade in Underline styles for the links*/
 a {
@@ -43,7 +44,14 @@ a {
   text-decoration: none;
   text-shadow: none;
   }
-
+.hidden{
+  visibility: hidden;
+  position: absolute;
+}
+.show{
+  visibility: visible;
+  position: relative;
+}
 /*Box containing all the elements of the welcoming page*/
 .welcome_text {
     display: grid;
@@ -214,7 +222,6 @@ a {
 }
 .sous_section #godot_icon:hover{
   background: linear-gradient(to right, #3bad6b, #b8dd8e);
-  border-radius: 20%;
   -webkit-border-radius: 20%;
   -moz-border-radius: 20%;
   -ms-border-radius: 20%;
@@ -229,6 +236,7 @@ a {
   border-top: 3px solid;
   border-image-slice: 1;
   border-image-source: linear-gradient(to right, #3bad6b, #b8dd8e);
+  
 }
 #projects{
   display: flex;
@@ -259,7 +267,6 @@ a {
   text-align: center;
   color: gray;
   font-size: 1.2rem;
-  
 }
 
 .prev-button,
@@ -288,45 +295,3 @@ a {
   font-size: 30px;
 }
 
-/*Table parameters*/
-table {
-  border-collapse: collapse;
-}
-/*All cells and title cells */
-
-td {
-  vertical-align: middle;
-  padding: 50px;
-  border-top: 1px solid grey;
-  border-bottom: grey 1px solid;
-}
-td{
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-}
-td > p{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-}
-td :first-child{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#project_table{
-  display: flex;
-  justify-content: center;
-}
-#project_table img{
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: cover;
-}
-#project_table_title{
-  display: flex;
-  justify-content: center;
-  padding: 50px 0px;
-}
