@@ -262,6 +262,10 @@ a {
 .card{
   padding: 10px;
 }
+.card img{
+  width: 800px;
+  height: auto;
+}
 .card p{
   display: flex;
   text-align: center;
