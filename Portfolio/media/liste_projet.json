@@ -5,9 +5,9 @@
       "Date":"2024",
       "Language": "HTML5, CSS3, Django",
       "Description": "Website registering Names and Phone number, this is a cleaner remake of a project i did at 16 to see my progression",
-      "Images": "../media/NewAnnuaire.png",
+      "Images": "../media/images/NewAnnuaire.png",
       "Link": "https://raspberrypi.tail9a1070.ts.net/newannuaire/",
-      "Favoris": true,
+      "Favoris": "web",
       "Avancement": true
     },
     {
@@ -16,9 +16,9 @@
       "Date":"2022",
       "Language": "Python (pygame)",
       "Description": "recreation of the famous flappy bird with custom designs",
-      "Images": "../media/GameplayRobYvsTheMask.png",
+      "Images": "../media/images/GameplayRobYvsTheMask.png",
       "Link": "https://github.com/Nereoll/Roby-vs-the-mask",
-      "Favoris": true,
+      "Favoris": "game",
       "Avancement": true
     },
     {
@@ -27,9 +27,20 @@
       "Date":"2023",
       "Language": "bash",
       "Description": "Raspberry pi NAS using dietpi OS and apache2 to host my nextcloud made to synch my data across all of my devices with the use of scripts and creation of a ddns this server is no longer but was a good project nonetheless",
-      "Images": "../media/oldNextCloud.png",
+      "Images": "../media/images/oldNextCloud.png",
       "Link": "",
       "Favoris": null,
+      "Avancement": true
+    },
+    {
+      "Type": "Nativ java application",
+      "Title": "Stud Life",
+      "Date":"2024",
+      "Language": "java",
+      "Description": "University project, creation of a full MVC application to help students create and manage events, this project was made in a team of 4,",
+      "Images": "../media/images/Stud_Life.png",
+      "Link": "https://github.com/Nereoll/Stud-LIfe/tree/main/genevent-master",
+      "Favoris": "software",
       "Avancement": true
     },
     {
@@ -37,10 +48,10 @@
       "Title": "Raspberry pi NAS",
       "Date":"2024",
       "Language": "bash",
-      "Description": "Raspberry pi serverusing rpi os and apache2 to host web servers such as \"Annuaire\" and a new \"Nextcloud\" session",
-      "Images": "../media/NextCloud.png",
+      "Description": "Raspberry pi server using rpi os and apache2 to host my web projects as well as synchronzie my data and much more",
+      "Images": "../media/images/NextCloud.png",
       "Link": "",
-      "Favoris": true,
+      "Favoris": "personnal",
       "Avancement": true
     },
     {
@@ -49,9 +60,9 @@
       "Date":"2024",
       "Language": "HTML5, CSS3, JavaScript",
       "Description": "University project, the goal was to create a simple website to showcase IBM to 6th grader, using simple worlds, we had to work on the wireframe et gather the main informations about IBM and then realize the website as a team, we used GIT to synch all work",
-      "Images": "../media/IBM2.png",
+      "Images": "../media/images/IBM2.png",
       "Link": "https://github.com/Nagrom850/IBM_3-mes",
-      "Favoris": true,
+      "Favoris": "web",
       "Avancement": true
     },
     {
@@ -60,7 +71,7 @@
       "Date":"2024",
       "Language": "postgreSQL",
       "Description": "University project, implementing a database related to the titanic to showcase why the survivor survived",
-      "Images": "",
+      "Images": "../media/images/Titanic.png",
       "Link": "",
       "Favoris": null,
       "Avancement": true
@@ -71,9 +82,9 @@
       "Date":"2024",
       "Language": "Java",
       "Description": "University project, Automatic attribution of news to a theme (SPORT, POLITICS,,, ) based on machine learning",
-      "Images": "",
+      "Images": "../media/images/Machine-learning.png",
       "Link": "https://github.com/GargantuaArgell/projet-sae-s1-01",
-      "Favoris": null,
+      "Favoris": "software",
       "Avancement": true
     },
     {
@@ -82,9 +93,9 @@
       "Date":"2024",
       "Language": "plpgSQL, postgreSQL, rMarkdown",
       "Description": "University project, cleaning of the large nutriscore database to extract only the data related to pizza quiches and pie in the united state and make graphs and analytics about those data",
-      "Images": "../media/pizzaBD.png",
+      "Images": "../media/images/pizzaBD.png",
       "Link": "https://github.com/Nereoll/Nutriscore-database-analysis",
-      "Favoris": true,
+      "Favoris": null,
       "Avancement": true
     },
     {
@@ -93,10 +104,10 @@
       "Date":"2024",
       "Language": "bash",
       "Description": "University project, Installation and setup of a Debian 11 distribution on a new machine, as well as the installation of git and IntellIJ IDEA Community, from flatpak snaps and the base debian package",
-      "Images": "../media/idea_install.png",
+      "Images": "../media/images/idea_install.png",
       "Link": "",
       "Favoris": null,
       "Avancement": true
     }
+
   ]
-  

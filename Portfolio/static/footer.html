@@ -3,10 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-jN8wJ2wVf8vbg7YF4rO+p7y2y9RzVf4c8NdlV25Euv67PHO69w5L0m1k2T5Xyz2Sv0K0u3xAl5t2n3V8k7OpFA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="../style/output.css" rel="stylesheet"> <!-- Lien vers Tailwind CSS -->
     <title>Document</title>
 </head>
-<body>
-        <a href="mailto:pimboliwell.fr@gmail.com" target="_blank"><i class ="fa fa-envelope"></i></a>
-        <a href="https://github.com/Nereoll" target="_blank"><i class ="fa fa-github"></i></a>
+<body class="flex flex-col min-h-screen">
+    <footer class="w-full flex items-center justify-center gap-12 py-12 mt-auto text-[5vh]">
+        <a href="mailto:pimboliwell.fr@gmail.com" target="_blank" class="transition-colors duration-300 hover:text-green-500">
+            <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://github.com/Nereoll" target="_blank" class="transition-colors duration-300 hover:text-green-500">
+            <i class="fab fa-github"></i>
+        </a>
+    </footer>
 </body>
 </html>

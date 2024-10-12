@@ -12,18 +12,14 @@ document.addEventListener("DOMContentLoaded", function() {
         data.forEach(element => {
             //Gestion de la div projet
             const div = document.createElement('div')
-            div.classList.add("projet")
-            div.classList.add("background_cover")
+            div.classList.add("projet","pb-[size:20%]" ,"w-[size:20%]", "background_cover", "hover:bg-[size:250%]", "zoom")
             div.style.backgroundImage = `url('${element.Images}')`
             //Éléments descriptifs du projet à afficher
             var fieldsToDisplay = [element.Title, element.Type, element.Date];
             fieldsToDisplay.forEach(field => {
                 const p = document.createElement('p');
                 p.textContent = field;
-                p.classList.add("centre");
-                p.classList.add("gras");
-                p.classList.add("back");
-                console.log(p.class);
+                p.classList.add("centre", "font-bolder", "text-base", "bg-transparent");
                 div.appendChild(p);
             });
 
@@ -59,6 +55,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
             const img=document.createElement('img');
             img.src=element.Images
+            img.classList.add("w-full")
+
 
             const info_container=document.createElement('div');
             info_container.classList.add("column_flex")

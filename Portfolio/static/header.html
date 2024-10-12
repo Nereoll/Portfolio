@@ -3,27 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style/base_template.css">
+    <link href="../style/output.css" rel="stylesheet">
+    <link href="../style/custom.css" rel="stylesheet">
     <link rel="icon" href="../media/portfolio.ico" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap">
-
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!-- Ajout de Font Awesome -->
     <title>Header</title>
 </head>
-<body>
-    <div class="topnav">
+<body class="min-h-screen flex flex-col font-ubuntu">
+    <div class="z-10 overflow-hidden font-bold bg-black fixed top-0 w-full">
         <!-- Centered link -->
-        <div class="topnav-centered">
-            <a href="index.html" class="active">Home</a>
+        <div class="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
+            <a href="index.html" class="relative text-whitesmoke text-center px-4 py-3 no-underline text-[17px] group">Home
+                <span class="absolute left-0 bottom-0 w-full h-0.5 bg-green-500 opacity-0 transition-transform duration-300 group-hover:opacity-100 group-hover:scale-100 scale-0 transform"></span>
+            </a>
         </div>
         <!-- Left-aligned links (default) -->
-            <a href="../media/CV_web.pdf"  target="_blank"><i class="fa-regular fa-id-card"></i>Resume</a>
-            <a href="projects_page.html">All projects</a>
-        <!-- Right-aligned links -->
-        <div class="topnav-right">
-            <a href="index.html#about">About</a>
-            <a href="contact_page.html">Contacts <i class="fa-solid fa-address-book"></i></a>
+        <div class="float-left flex flex-row">
+            <a href="../media/CV_web.pdf" target="_blank" class="hover-link text-whitesmoke text-center px-4 py-3 no-underline text-[17px] relative inline-block">
+                <i class="fa-regular fa-id-card"></i> Resume
+                <span class="link-underline"></span>
+            </a>
+            <a href="projects_page.html" class="hover-link text-whitesmoke text-center px-4 py-3 no-underline text-[17px] relative inline-block">
+                All projects
+                <span class="link-underline"></span>
+            </a>
         </div>
-      </div>
+        
+        <!-- Right-aligned links -->
+        <div class="float-right flex flex-row">
+            <a href="index.html#about" class="hover-link text-whitesmoke text-center px-4 py-3 no-underline text-[17px] relative inline-block">
+                About
+                <span class="link-underline"></span>
+            </a>
+            <a href="contact_page.html" class="hover-link text-whitesmoke text-center px-4 py-3 no-underline text-[17px] relative inline-block">
+                Contacts <i class="fa-solid fa-address-book"></i>
+                <span class="link-underline"></span>
+            </a>
+        </div>
+        
+    </div>
 </body>
 </html>
-
