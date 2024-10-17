@@ -128,7 +128,7 @@
 
 .image-container img {
     position: relative; /* This ensures that the image stays in place */
-    z-index: -1; /* Send the image behind the content */
+    z-index: 1; /* Send the image behind the content */
 }
 .carte {
     position: relative; /* Enable control over z-index for children */

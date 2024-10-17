@@ -28,14 +28,18 @@ function create_card(tag, container) {
                 carte.addEventListener('click', function() {
                     window.open(element.Link, '_blank');
                 });
-                carte.addEventListener('mouseout', function() {
-                    carte.style.transform = "scale(1)";
-                    carte.style.transition = "transform 0.3s ease";
-                });
                 carte.addEventListener('mouseover', function() {
                     carte.style.transform = "scale(1.5)";
                     carte.style.transition = "transform 0.3s ease";
+                    carte.style.zIndex = "10";  // Passe au premier plan
                 });
+                
+                carte.addEventListener('mouseout', function() {
+                    carte.style.transform = "scale(1)";
+                    carte.style.transition = "transform 0.3s ease";
+                    carte.style.zIndex = "1";  // Remet la carte au dernier plan
+                });
+                
             }
         });
     })

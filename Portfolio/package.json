@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
 "scripts": {
-  "build:css": "npx tailwindcss -i ./style/tailwind.css -o ./style/output.css --watch"
+  "build:css": "npx tailwindcss -i ./style/tailwind.css -o ./style/output.css --watch",
+  "build:css:prod": "NODE_ENV=production postcss src/styles.css -o dist/styles.css"
   },
   "keywords": [],
   "author": "",
