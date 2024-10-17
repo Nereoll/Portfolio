@@ -134,3 +134,12 @@
     position: relative; /* Enable control over z-index for children */
     z-index: 1; /* Ensures that the card’s content, including the shadow, is on top */
 }
+
+.hidden{
+    visibility: hidden;
+    position: absolute;
+  }
+  .show{
+    visibility: visible;
+    position: relative;
+  }
